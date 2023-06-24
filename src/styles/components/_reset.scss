@@ -1,0 +1,55 @@
+// reset components
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+// reset scrollbar
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: 0px none transparent;
+    border-radius: 0px;
+}
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+  ::-webkit-scrollbar-thumb:active {
+    background: transparent;
+}
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+  ::-webkit-scrollbar-track:hover {
+    background: transparent;
+}
+  ::-webkit-scrollbar-track:active {
+    background: transparent;
+}
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+}
